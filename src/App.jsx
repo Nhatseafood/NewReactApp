@@ -18,7 +18,7 @@ class App extends Component {
         <Route path="/about" component={About} />
         <Route path="/news" component={News} />
 
-       <h1>REACT APP</h1>
+       
        
       </div>
     </Router>  
