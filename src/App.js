@@ -18,7 +18,7 @@ class App extends Component {
      <div>
         <CustomNavbar />
         <Route exact path="/" component={Home} />
-        <Route path="/news" component={SearchView} />
+        <Route path="/search" component={SearchView} />
         <Route path="/about" component={About} />
 
       </div>

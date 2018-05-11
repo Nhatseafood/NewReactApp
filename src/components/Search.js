@@ -33,7 +33,7 @@ class SearchView extends Component {
 
       const gameItems = this.props.games.map(game => (
         <div key={game.id}>
-          <h3> {game.name} <span className="pull-right">{game.rating}</span></h3>
+          <h3> {game.name} <span className="pull-right">{game.publishers}</span></h3>
 
           <p> {game.summary} </p>
           </div>
@@ -43,6 +43,7 @@ class SearchView extends Component {
       <div>
        
         <div>
+          
           <SearchBar />
           {gameItems}
         </div>  

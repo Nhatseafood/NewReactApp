@@ -19,3 +19,10 @@
   h3 {
     margin-bottom: 1em;
   }
+
+  .jumbotron {
+    background-image: url(../images/game.jpg);
+    color: white;
+    text-align: center;
+    
+  }

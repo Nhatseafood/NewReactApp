@@ -14,7 +14,7 @@ class GameGallery extends Component {
 
       const gameItems = this.props.games.map(game => (
         <div key={game.id}>
-          <h3> {game.name} <span className="pull-right">{game.publishers}</span></h3>
+          <h3> {game.name} <span className="pull-right">{game.rating}</span></h3>
 
           <div> <img src={game.cover.url} /></div>
 
