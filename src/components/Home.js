@@ -61,7 +61,7 @@ class Home extends Component {
                                 <div class="thumbnail">
                                 <img src="https://cdn.images.dailystar.co.uk/dynamic/122/photos/60000/900x738/1226060.jpg" alt="..."/>
                                 <div class="caption">
-                                    <h3>Most Anticapated</h3>
+                                    <h3>Top Anticapated</h3>
                                     <p>Loren Ipsum bla bla bla.</p>
                                     <p><a href="https://www.igdb.com/top-100/anticipated" class="btn btn-primary" role="button">More Info</a> </p>
                                     <div class="card-footer">
